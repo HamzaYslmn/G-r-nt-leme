@@ -3,7 +3,10 @@ from random import gauss
 import cv2
 from cv2 import blur
 from cv2 import bilateralFilter
-import numpy as np                            
+import numpy as np                
+
+
+            
 img= cv2.imread("Goruntuisleme1/Resimler/kurukafa.png")                   #*hangi resmi açıyoruz
 imgGri= cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)               #*grileştirme
 cv2.imshow("Kafa", imgGri)                                 #*gri resmi açma
@@ -41,4 +44,3 @@ cv2.imshow("Kenarkafa", canny)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()                          #*pencereyi kapatana kadar açık tut
-""
