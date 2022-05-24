@@ -1,2 +1,2 @@
-# Goruntuleme
+# Görüntüleme
 Görüntü işlemeye giriş
