@@ -1,3 +1,0 @@
-# Görüntüleme
-
-Görüntü işlemeye giriş
