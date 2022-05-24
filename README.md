@@ -1,2 +1,3 @@
-# G-r-nt-leme
+# Görüntüleme
+
 Görüntü işlemeye giriş
