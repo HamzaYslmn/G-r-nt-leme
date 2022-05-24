@@ -1,0 +1,2 @@
+# Goruntuleme
+Görüntü işlemeye giriş
