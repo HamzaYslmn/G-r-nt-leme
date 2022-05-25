@@ -15,7 +15,7 @@ import numpy                               #* Matris işlemleri için
  
  Eğer son sütun 1 ise kişinin şeker hastası(diabet) olduğu, 0 ise diabet hastası olmadığı anlamına gelmektedir. 
 """
-dataset = numpy.loadtxt("YapaySinirAglari\Diyabet\diyabet.csv", delimiter=",")
+dataset = numpy.loadtxt("..\Diyabet\diyabet.csv", delimiter=",")
 
 X = dataset[:600, 0:8]  #* işlenecek veriler 600 tane ve 8 sütun
 Y = dataset[:600, 8]    #* 0 - 1 (sonuc sutununu tanımlıyoruz)
